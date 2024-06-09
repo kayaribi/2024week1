@@ -127,6 +127,11 @@ a:hover {
 .exp {
   max-width: 636px;
 }
+@media (max-width: 768px) {
+  .exp {
+    margin: 0 auto;
+  }
+}
 .exp .card {
   margin-bottom: 40px;
 }
@@ -157,7 +162,8 @@ a:hover {
   color: #949494;
 }
 @media (max-width: 768px) {
-  .exp .exp-info, .exp .year {
+  .exp .exp-info,
+  .exp .year {
     text-align: center;
   }
 }

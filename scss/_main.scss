@@ -50,6 +50,7 @@
 		margin-left: auto;
 		margin-bottom: 80px;
 	}
+
 	@media (max-width: 768px) {
 		.content {
 			text-align: center;
@@ -57,8 +58,13 @@
 	}
 }
 
+
 .exp {
 	max-width: 636px;
+
+	@media (max-width: 768px) {
+			margin: 0 auto;
+	}
 
 	.card {
 		margin-bottom: 40px;
@@ -98,7 +104,9 @@
 	}
 
 	@media (max-width: 768px) {
-		.exp-info, .year {
+
+		.exp-info,
+		.year {
 			text-align: center;
 		}
 	}
@@ -106,6 +114,7 @@
 	.card-bottom {
 		margin-bottom: 160px;
 	}
+
 }
 
 .footer {
