@@ -1,0 +1,125 @@
+.base-width {
+	max-width: 1296px;
+	margin: 0 auto;
+}
+
+.wrap {
+
+	h1 {
+		font-size: 128px;
+		letter-spacing: 0.12em;
+		margin-top: 160px;
+	}
+
+	@media (max-width: 768px) {
+		h1 {
+			text-align: center;
+			margin-top: 80px;
+		}
+	}
+
+	.main-up {
+		.image {
+			margin: 0 auto;
+		}
+
+		h2 {
+			font-size: 128px;
+			letter-spacing: 0.12em;
+			text-align: right;
+		}
+
+		@media (max-width: 768px) {
+			h2 {
+				font-size: 80px;
+				text-align: center;
+			}
+		}
+	}
+}
+
+
+
+.into {
+	background: #EFEFEF;
+
+	.content {
+		max-width: 636px;
+		font-size: 32px;
+		padding: 48px 0;
+		margin-left: auto;
+		margin-bottom: 80px;
+	}
+	@media (max-width: 768px) {
+		.content {
+			text-align: center;
+		}
+	}
+}
+
+.exp {
+	max-width: 636px;
+
+	.card {
+		margin-bottom: 40px;
+	}
+
+	h3 {
+		font-size: 40px;
+		color: #AE0000;
+		border-bottom: 3px solid #AE0000;
+		margin-bottom: 16px;
+	}
+
+	@media (max-width: 768px) {
+		h3 {
+			text-align: center;
+		}
+	}
+
+	.exp-info {
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+
+	.exp-info-evans {
+		margin-bottom: 8px;
+	}
+
+	.exp-info-awards {
+		margin-bottom: 12px;
+	}
+
+	.year {
+		font-size: 20px;
+		font-style: italic;
+		color: #949494;
+
+	}
+
+	@media (max-width: 768px) {
+		.exp-info, .year {
+			text-align: center;
+		}
+	}
+
+	.card-bottom {
+		margin-bottom: 160px;
+	}
+}
+
+.footer {
+	background: #000000;
+
+	.social {
+		display: flex;
+		gap: 40px;
+		justify-content: center;
+		padding: 40px 0;
+	}
+
+	.logo:hover {
+		opacity: .5;
+		transition: all .5s;
+	}
+}

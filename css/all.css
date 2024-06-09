@@ -1,0 +1,180 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Castoro", serif;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.base-width {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.wrap h1 {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+  margin-top: 160px;
+}
+@media (max-width: 768px) {
+  .wrap h1 {
+    text-align: center;
+    margin-top: 80px;
+  }
+}
+.wrap .main-up .image {
+  margin: 0 auto;
+}
+.wrap .main-up h2 {
+  font-size: 128px;
+  letter-spacing: 0.12em;
+  text-align: right;
+}
+@media (max-width: 768px) {
+  .wrap .main-up h2 {
+    font-size: 80px;
+    text-align: center;
+  }
+}
+
+.into {
+  background: #EFEFEF;
+}
+.into .content {
+  max-width: 636px;
+  font-size: 32px;
+  padding: 48px 0;
+  margin-left: auto;
+  margin-bottom: 80px;
+}
+@media (max-width: 768px) {
+  .into .content {
+    text-align: center;
+  }
+}
+
+.exp {
+  max-width: 636px;
+}
+.exp .card {
+  margin-bottom: 40px;
+}
+.exp h3 {
+  font-size: 40px;
+  color: #AE0000;
+  border-bottom: 3px solid #AE0000;
+  margin-bottom: 16px;
+}
+@media (max-width: 768px) {
+  .exp h3 {
+    text-align: center;
+  }
+}
+.exp .exp-info {
+  font-size: 24px;
+  margin-bottom: 16px;
+}
+.exp .exp-info-evans {
+  margin-bottom: 8px;
+}
+.exp .exp-info-awards {
+  margin-bottom: 12px;
+}
+.exp .year {
+  font-size: 20px;
+  font-style: italic;
+  color: #949494;
+}
+@media (max-width: 768px) {
+  .exp .exp-info, .exp .year {
+    text-align: center;
+  }
+}
+.exp .card-bottom {
+  margin-bottom: 160px;
+}
+
+.footer {
+  background: #000000;
+}
+.footer .social {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  padding: 40px 0;
+}
+.footer .logo:hover {
+  opacity: 0.5;
+  transition: all 0.5s;
+}/*# sourceMappingURL=all.css.map */
