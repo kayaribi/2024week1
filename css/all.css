@@ -89,8 +89,8 @@ a:hover {
 }
 @media (max-width: 768px) {
   .wrap h1 {
-    margin-top: 80px;
     text-align: center;
+    margin-top: 80px;
   }
 }
 .wrap .main-up .image {
