@@ -56,15 +56,12 @@ h2 {
 }
 
 
-.profile {
+.card {
 	max-width: 636px;
+	margin-bottom: 40px;
 
 	@media (max-width: 768px) {
 		margin: 0 auto;
-	}
-
-	.card {
-		margin-bottom: 40px;
 	}
 
 	h3 {
@@ -108,10 +105,10 @@ h2 {
 		}
 	}
 
-	.card-bottom {
-		margin-bottom: 160px;
-	}
+}
 
+.card-bottom {
+	margin-bottom: 160px;
 }
 
 .footer {
