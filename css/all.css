@@ -82,37 +82,39 @@ a:hover {
   margin: 0 auto;
 }
 
-.wrap h1 {
+h1 {
   font-size: 128px;
   letter-spacing: 0.12em;
   margin-top: 160px;
 }
+
 @media (max-width: 768px) {
-  .wrap h1 {
+  h1 {
     font-size: 100px;
     text-align: center;
     margin-top: 80px;
   }
 }
-.wrap .main-up .image {
+.image {
   margin: 0 auto;
 }
-.wrap .main-up h2 {
+
+h2 {
   font-size: 128px;
   letter-spacing: 0.12em;
   text-align: right;
 }
+
 @media (max-width: 768px) {
-  .wrap .main-up h2 {
+  h2 {
     font-size: 70px;
     text-align: center;
   }
 }
-
-.into {
+.intro {
   background: #EFEFEF;
 }
-.into .content {
+.intro .content {
   max-width: 636px;
   font-size: 32px;
   padding: 48px 0;
@@ -120,64 +122,62 @@ a:hover {
   margin-bottom: 80px;
 }
 @media (max-width: 768px) {
-  .into .content {
+  .intro .content {
     text-align: center;
     margin-left: auto;
     margin-right: auto;
   }
 }
 
-.exp {
+.profile {
   max-width: 636px;
 }
 @media (max-width: 768px) {
-  .exp {
+  .profile {
     margin: 0 auto;
   }
 }
-.exp .card {
+.profile .card {
   margin-bottom: 40px;
 }
-.exp h3 {
+.profile h3 {
   font-size: 40px;
   color: #AE0000;
   border-bottom: 3px solid #AE0000;
   margin-bottom: 16px;
 }
 @media (max-width: 768px) {
-  .exp h3 {
+  .profile h3 {
     text-align: center;
   }
 }
-.exp .exp-info {
+.profile .profile-info {
   font-size: 24px;
   margin-bottom: 16px;
 }
-.exp .exp-info-evans {
+.profile .profile-info-evans {
   margin-bottom: 8px;
 }
-.exp .exp-info-awards {
+.profile .profile-info-awards {
   margin-bottom: 12px;
 }
-.exp .year {
+.profile .year {
   font-size: 20px;
   font-style: italic;
   color: #949494;
 }
 @media (max-width: 768px) {
-  .exp .exp-info,
-  .exp .year {
+  .profile .profile-info,
+  .profile .year {
     text-align: center;
   }
 }
-.exp .card-bottom {
+.profile .card-bottom {
   margin-bottom: 160px;
 }
 
 .footer {
   background: #000000;
-}
-.footer .social {
   display: flex;
   gap: 40px;
   justify-content: center;
