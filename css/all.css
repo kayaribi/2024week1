@@ -140,6 +140,7 @@ h2 {
 }
 .card h3 {
   font-size: 40px;
+  line-height: 57px;
   color: #AE0000;
   border-bottom: 3px solid #AE0000;
   margin-bottom: 16px;
@@ -180,7 +181,7 @@ h2 {
   display: flex;
   gap: 40px;
   justify-content: center;
-  padding: 40px 0;
+  padding: 64px 0;
 }
 .footer .logo:hover {
   opacity: 0.5;
