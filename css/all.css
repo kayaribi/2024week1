@@ -103,14 +103,12 @@ h2 {
   font-size: 128px;
   letter-spacing: 0.12em;
   text-align: right;
-  margin-right: 14px;
 }
 
 @media (max-width: 768px) {
   h2 {
     font-size: 70px;
     text-align: center;
-    margin: 0px;
   }
 }
 .intro {
