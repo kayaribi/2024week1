@@ -1,0 +1,137 @@
+.base-width {
+	max-width: 1296px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 128px;
+	letter-spacing: 0.12em;
+	margin-top: 160px;
+}
+
+@media (max-width: 768px) {
+	h1 {
+		font-size: 100px;
+		text-align: center;
+		margin-top: 80px;
+	}
+}
+
+
+.image {
+	margin: 0 auto;
+}
+
+h2 {
+	font-size: 128px;
+	letter-spacing: 0.12em;
+	text-align: right;
+}
+
+@media (max-width: 768px) {
+	h2 {
+		font-size: 70px;
+		text-align: center;
+	}
+}
+
+.intro {
+	background: #EFEFEF;
+
+	.content {
+		max-width: 636px;
+		font-size: 32px;
+		padding: 48px 0;
+		margin-left: auto;
+		margin-bottom: 80px;
+	}
+
+	@media (max-width: 768px) {
+		.content {
+			text-align: center;
+			margin-left: auto;
+			margin-right: auto;
+		}
+	}
+}
+
+
+.card {
+	max-width: 636px;
+	margin-bottom: 40px;
+
+	@media (max-width: 768px) {
+		margin: 0 auto;
+	}
+
+	h3 {
+		font-size: 40px;
+		line-height: 57px;
+		color: #AE0000;
+		border-bottom: 3px solid #AE0000;
+		margin-bottom: 16px;
+	}
+
+	@media (max-width: 768px) {
+		h3 {
+			text-align: center;
+		}
+	}
+
+	.profile-info {
+		font-size: 24px;
+		margin-bottom: 16px;
+	}
+
+	.profile-info-evans {
+		margin-bottom: 8px;
+	}
+
+	.profile-info-awards {
+		margin-bottom: 12px;
+	}
+
+	.year {
+		font-size: 20px;
+		font-style: italic;
+		color: #949494;
+
+	}
+
+	@media (max-width: 768px) {
+
+		.profile-info,
+		.year {
+			text-align: center;
+		}
+	}
+	&:last-child {
+		margin-bottom: 160px;
+	  }
+}
+
+.footer {
+	background: #000000;
+	text-align: center;
+}
+
+.footer-logo {
+	padding: 60px 0;
+}
+
+.logo{
+	display: inline-block;
+}
+
+.logo:hover {
+	opacity: .5;
+	transition: all .5s;
+}
+
+.fb{
+	margin-right: 40px;
+}
+
+.line{
+	margin-left: 40px;
+}
