@@ -105,11 +105,9 @@ h2 {
 			text-align: center;
 		}
 	}
-
-}
-
-.card-bottom {
-	margin-bottom: 160px;
+	&:last-child {
+		margin-bottom: 160px;
+	  }
 }
 
 .footer {

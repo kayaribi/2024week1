@@ -171,8 +171,7 @@ h2 {
     text-align: center;
   }
 }
-
-.card-bottom {
+.card:last-child {
   margin-bottom: 160px;
 }
 
